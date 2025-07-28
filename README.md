@@ -1,66 +1,62 @@
-Risk–Return Analysis of Tech Stocks (2015–2023)
+# Risk–Return Analysis of Tech Stocks (2015–2023)
+
 A data-driven exploration of the trade-off between risk and return for five major tech giants — Apple (AAPL), Microsoft (MSFT), Netflix (NFLX), Amazon (AMZN), and Google/Alphabet (GOOGL) — using historical stock data from 2015 to 2023.
 
-Overview
+## Overview
+
 This project investigates:
 
-Monthly and annualised returns
-
-Volatility (standard deviation of returns)
-
-Sharpe Ratios (risk-adjusted returns)
-
-Stock behaviour during COVID-19 (2019–2021)
+- Monthly and annualised returns
+- Volatility (standard deviation of returns)
+- Sharpe Ratios (risk-adjusted returns)
+- Stock behaviour during COVID-19 (2019–2021)
 
 By visualising these metrics and comparing them across time, we identify which stocks delivered the best value for risk-tolerant vs. risk-averse investors.
 
-Tools & Methods
-Python (pandas, numpy, matplotlib, seaborn, yfinance)
+## Tools and Methods
 
-Excel for basic tabulations and summaries
+- Python (pandas, numpy, matplotlib, seaborn, yfinance)
+- Excel for tabulations and dashboards
+- Key Metrics:
+  - Monthly returns from adjusted closing prices
+  - Annualised return = average monthly return × 12
+  - Annualised volatility = standard deviation × √12
+  - Sharpe Ratio = (Return − Risk-Free Rate) ÷ Volatility  
+    (Assumed risk-free rate = 3%)
 
-Financial Statistics
+## Key Insights
 
-Monthly returns computed from adjusted closing prices
+- Best Risk-Adjusted Performer: Microsoft (MSFT) – Sharpe ≈ 1.21  
+- Highest Raw Return: Netflix (NFLX) – ~32.6% p.a., but most volatile  
+- COVID-19 Volatility:
+  - Volatility spiked for most stocks in 2020
+  - Apple had the largest increase (0.24 → 0.40)
+  - Netflix surprisingly became calmer (0.37 → 0.20)
 
-Annualised return = mean monthly return × 12
+## Investor Personas
 
-Annualised volatility = std dev of monthly return × √12
+| Persona           | Strategy                        | Suggested Stock(s)     |
+|-------------------|----------------------------------|-------------------------|
+| Cautious Carla    | Low risk, steady returns         | MSFT, GOOGL             |
+| Balanced Ben      | Growth with some risk            | AAPL, AMZN              |
+| Adrenaline Alex   | High return, high risk tolerance | NFLX (small position)   |
 
-Sharpe ratio = (return − risk-free rate) / volatility
+## Project Structure
 
-Key Insights
-Best Risk-Adjusted Performer: Microsoft (MSFT) had the highest Sharpe Ratio (~1.21), meaning investors got more return for each unit of risk.
+├── Summary_Dashboard.xlsx # Summary stats and visuals
+├── Tech_RiskReturn_Summary.pdf # PDF report with key findings
+├── risk_return_analysis.ipynb # (To be added) Full Python workflow
+└── README.md # Project overview
 
-Highest Raw Return: Netflix (NFLX) led with ~32.6% annual return, but also had the highest volatility (~42.5%), lowering its risk-adjusted appeal.
+## Next Steps
 
-COVID-19 Volatility: Volatility jumped for most stocks in 2020, but Netflix surprisingly became calmer due to predictable lockdown demand.
+- [ ] Upload the Jupyter Notebook (Python code)
+- [ ] Add interactive dashboard (Power BI or Plotly)
+- [ ] Expand to include post-2023 data or other sectors
 
-Investor Personas
-Cautious Carla – wants safety: MSFT or GOOGL
+## Author
 
-Balanced Ben – growth with balance: AAPL or AMZN
-
-Adrenaline Alex – chases high returns: NFLX (but with caution)
-
-Project Structure
-bash
-Copy
-Edit
-.
-├── Summary_Dashboard.xlsx       # Summary stats and visuals
-├── Tech_RiskReturn_Summary.pdf # PDF report with insights & visuals
-├── risk_return_analysis.ipynb  # (To be added) Full Python workflow
-└── README.md                   # Project overview
-Next Steps
- Upload Jupyter Notebook with Python code
-
- Add interactive charts (optional: Plotly or Power BI)
-
- Expand dataset to include non-tech sectors or post-2023 data
-
-Author
-Ayo Ososanya
-Final-Year Economics Student | Data Enthusiast | Tutor
-Currently building a portfolio in finance & education analytics to break into data analysis roles.
+**Ayo Ososanya**  
+Final-Year Economics Student | Data Enthusiast | Private Tutor  
+Passionate about data, finance, and education. Building a portfolio to break into data analysis roles.
 
