@@ -43,10 +43,10 @@ By visualising these metrics and comparing them across time, we identify which s
 
 ## Project Structure
 
-├── Summary_Dashboard.xlsx # Summary stats and visuals
-├── Tech_RiskReturn_Summary.pdf # PDF report with key findings
-├── risk_return_analysis.ipynb # (To be added) Full Python workflow
-└── README.md # Project overview
+-  Summary_Dashboard.xlsx # Summary stats and visuals
+-  Tech_RiskReturn_Summary.pdf # PDF report with key findings
+-  risk_return_analysis.ipynb # (To be added) Full Python workflow
+-  README.md # Project overview
 
 ## Next Steps
 
