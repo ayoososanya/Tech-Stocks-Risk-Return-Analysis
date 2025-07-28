@@ -41,7 +41,7 @@ By visualising these metrics and comparing them across time, we identify which s
 | Balanced Ben      | Growth with some risk            | AAPL, AMZN              |
 | Adrenaline Alex   | High return, high risk tolerance | NFLX (small position)   |
 
-## Project Structure
+## Project Structure:
 
 -  Summary_Dashboard.xlsx # Summary stats and visuals
 -  Tech_RiskReturn_Summary.pdf # PDF report with key findings
