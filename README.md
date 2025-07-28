@@ -48,11 +48,6 @@ By visualising these metrics and comparing them across time, we identify which s
 -  risk_return_analysis.ipynb # (To be added) Full Python workflow
 -  README.md # Project overview
 
-## Next Steps
-
-- [ ] Upload the Jupyter Notebook (Python code)
-- [ ] Add interactive dashboard (Power BI or Plotly)
-- [ ] Expand to include post-2023 data or other sectors
 
 ## Author
 
