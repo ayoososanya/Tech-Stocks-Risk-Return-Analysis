@@ -43,11 +43,11 @@ By visualising these metrics and comparing them across time, we identify which s
 
 ## Project Structure:
 
-- Figures/               # Visualizations from the analysis (e.g. plots, graphs)
-- Notebook/              # Jupyter notebooks used for analysis and modelling
-- Summary Dashboard/     # Excel dashboard summarizing key insights
-- data/                  # Raw and processed datasets used for the analysis
-- README.md              # Project overview and instructions
+- Figures               Visualisations from the analysis (e.g. plots, graphs)
+- Notebook              Jupyter notebooks used for analysis and modelling
+- Summary Dashboard     Excel dashboard summarising key insights
+- data                  Raw and processed datasets used for the analysis
+- README.md             Project overview and instructions
 
 
 
