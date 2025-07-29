@@ -54,6 +54,6 @@ By visualising these metrics and comparing them across time, we identify which s
 ## Author
 
 **Ayo Ososanya**  
-Final-Year Economics Student | Data Enthusiast | Private Tutor  
+Economics Graduate | Data Enthusiast | Private Tutor  
 Passionate about data, finance, and education. Building a portfolio to break into data analysis roles.
 
